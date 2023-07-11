@@ -51,7 +51,7 @@
 }
 
 .featured-des {
-
+    padding-left: 100px;
     display: flex;
     width: 595px;
     height: 60px;
@@ -63,6 +63,7 @@
     font-style: normal;
     font-weight: 401;
     line-height: 31px;
+
 }
 
 .featured-title {
@@ -150,12 +151,13 @@
     width: 318px;
     height: 420px;
     flex-shrink: 0;
+    padding-top: 40px;
 }
 
 .sale2 {
     border-radius: 8px;
     padding-top: 120px;
-    padding-left: 30px;
+    padding-left: 70px;
 }
 
 .button2 {
@@ -170,4 +172,139 @@
     line-height: normal;
     border-radius: 8px;
     background: #E55473;
+}
+
+.instagram {
+    display: block;
+    padding-left: 50px;
+    width: fit-content;
+}
+
+.instagram-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.insta-des {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    padding-left: 380px;
+
+}
+
+.intsa-pic {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    gap: 20px;
+    justify-content: first baseline;
+    padding-left: 50px;
+
+}
+
+.pic1 {
+    width: 300px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+    flex-shrink: 0;
+}
+
+.pic2 {
+    width: 300px;
+    flex-shrink: 0;
+
+    flex-shrink: 0;
+}
+
+.pic3 {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.pic4 {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.searchbox {
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    background-image: url("../Flower-Asset/Rectangle-searchbox.png");
+    border-radius: 8px;
+    position: relative;
+    margin: auto;
+}
+
+.search-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.searchbox-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 40px;
+}
+.input-bar{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin: auto;
+    
+}
+.button-submit{
+    width: 150px;
+height: 64px;
+flex-shrink: 0;
+display: flex;
+width: 88px;
+height: 27.429px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+footer {
+    background-color: black;
+}
+
+.fooer-title {
+    color: #E55473;
+}
+.details{
+    display: flex;
+width: 625px;
+flex-direction: column;
+flex-shrink: 0;
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
 }
