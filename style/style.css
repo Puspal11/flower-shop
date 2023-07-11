@@ -48,6 +48,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    border: none;
 }
 
 .featured-des {
@@ -63,6 +64,8 @@
     font-style: normal;
     font-weight: 401;
     line-height: 31px;
+    position: relative;
+    margin: auto;
 
 }
 
@@ -172,6 +175,7 @@
     line-height: normal;
     border-radius: 8px;
     background: #E55473;
+    margin: none;
 }
 
 .instagram {
@@ -201,7 +205,8 @@
     flex-direction: column;
     flex-shrink: 0;
     color: rgba(39, 39, 39, 0.60);
-    padding-left: 380px;
+    position: relative;
+    margin: auto;
 
 }
 
@@ -210,6 +215,7 @@
     gap: 20px;
     justify-content: first baseline;
     padding-left: 50px;
+    margin: auto;
 
 }
 
@@ -282,7 +288,6 @@ height: 27.429px;
 flex-direction: column;
 flex-shrink: 0;
 color: #FFF;
-font-family: Lato;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
@@ -292,8 +297,8 @@ footer {
     background-color: black;
 }
 
-.fooer-title {
-    color: #E55473;
+.footer-title{
+    color: #E55473;;
 }
 .details{
     display: flex;
@@ -307,4 +312,23 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+position: relative;
+margin: auto;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.foot{
+ position: relative;
+    margin: auto;
+
+}
+#fo{
+    text-decoration: underline;
 }
