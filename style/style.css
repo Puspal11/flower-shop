@@ -96,6 +96,7 @@
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+
 }
 
 .featured2 {
@@ -244,13 +245,13 @@
 }
 
 .searchbox {
-    width: 1440px;
+    width: 1210px;
     height: 449px;
     flex-shrink: 0;
     background-image: url("../Flower-Asset/Rectangle-searchbox.png");
     border-radius: 8px;
     position: relative;
-    margin: auto;
+    margin-left: 50px;
 }
 
 .search-des {
@@ -271,64 +272,77 @@
     line-height: normal;
     padding-top: 40px;
 }
-.input-bar{
+
+.input-bar {
+
     display: flex;
     justify-content: space-evenly;
     position: relative;
     margin: auto;
-    
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
 }
-.button-submit{
+
+.button-submit {
     width: 150px;
-height: 64px;
-flex-shrink: 0;
-display: flex;
-width: 88px;
-height: 27.429px;
-flex-direction: column;
-flex-shrink: 0;
-color: #FFF;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: normal;
+    font-style: none;
 }
+
 footer {
     background-color: black;
+    margin-bottom: 50px;
 }
 
-.footer-title{
-    color: #E55473;;
+.footer-title {
+    color: #E55473;
+    ;
 }
-.details{
+
+.details {
     display: flex;
-width: 625px;
-flex-direction: column;
-flex-shrink: 0;
-color: rgba(255, 255, 255, 0.90);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-position: relative;
-margin: auto;
-}
-.copyright{
-    color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.foot{
- position: relative;
+    width: 625px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
     margin: auto;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foot {
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
 
 }
-#fo{
+
+#fo {
     text-decoration: underline;
 }
