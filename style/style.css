@@ -1,13 +1,14 @@
 .banner-photo {
     width: 635px;
-height: 800px;
-flex-shrink: 0;
+    height: 800px;
+    flex-shrink: 0;
 }
-.banner{
-    display: flex;
-    width: 700px;
-height: 850px;
-flex-shrink: 0;
-background-color: rgba(229, 84, 115, 0.10);;
 
-}
+.header {
+    display: flex;
+    width: 1350px;
+    height: 850px;
+    flex-shrink: 0;
+    background-color: rgba(229, 84, 115, 0.10);
+    }
+    
