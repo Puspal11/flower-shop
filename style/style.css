@@ -1,20 +1,13 @@
-*{
-    margin: 0px;
-    padding: 0px;
+.banner-photo {
+    width: 635px;
+height: 800px;
+flex-shrink: 0;
 }
-nav {
+.banner{
     display: flex;
-}
-nav > ul{
-    display: flex;
-    align-items: center;
-    
-} 
-nav li{
-    list-style: none;
-    margin-right: 50px;
-    justify-content: space-between;
-}
-nav a{
-    text-decoration: none;
+    width: 700px;
+height: 850px;
+flex-shrink: 0;
+background-color: rgba(229, 84, 115, 0.10);;
+
 }
