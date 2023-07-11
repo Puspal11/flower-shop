@@ -1,6 +1,7 @@
-*{
-    /* padding: 0px; */
+* {
+    text-decoration: none;
 }
+
 .banner-photo {
     width: 635px;
     height: 800px;
@@ -91,6 +92,8 @@
     margin: 0 auto;
     justify-content: space-evenly;
     gap: 15px;
+    position: relative;
+    margin: auto;
 
 }
 
@@ -108,15 +111,16 @@
     height: 428px;
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
+    background: rgba(71, 125, 17, 0.15);
 }
 
-.featued3 {
-    width: 314px;
-    height: 471px;
+.featued3{
+    width: 310px;
+    height: 428px;
     flex-shrink: 0;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(21, 41, 2, 0.15);
+    border-radius: 280px 280px 0px 0px;
+    background: rgba(41, 2, 2, 0.15);
+
 }
 
 .flower-name {
@@ -153,6 +157,12 @@ background: rgba(71, 125, 17, 0.15);
     width: 594px;
     flex-direction: column;
     flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
 }
 
 .sale-pic {
@@ -181,9 +191,11 @@ background: rgba(71, 125, 17, 0.15);
     border-radius: 8px;
     background: #E55473;
     margin: none;
+    text-decoration: none;
+    border: none;
 }
 
-.instagram {
+.instagram{
     display: block;
     padding-left: 50px;
     width: fit-content;
@@ -350,6 +362,7 @@ footer {
 #fo {
     text-decoration: underline;
 }
-.footer-des{
+
+.footer-des {
     font-style: italic;
 }
